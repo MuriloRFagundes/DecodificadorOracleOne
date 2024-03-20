@@ -39,6 +39,7 @@ function executar(escolha) {
         resultado = "invalido";
     }
 
+
     document.querySelector("#imagem").style.display = "none";
     document.querySelector("#h2").style.display = "none";
 
@@ -56,4 +57,3 @@ document.querySelector("#criptografar").addEventListener("click", function(){
 document.querySelector("#descriptografar").addEventListener("click", function(){
     executar("descripto");
 });
-
